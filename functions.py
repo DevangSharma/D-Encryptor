@@ -1,3 +1,5 @@
+from random import randint
+
 def test_input(n, chk):
     while True:
         if n == chk:
@@ -24,13 +26,18 @@ def encrypt():
     print("You selected Encryption")
     message = input("Enter your message from line below :\n")
     message = message.lower()
+    l = len(message)
+
     result = ""
-    key = 1
+    key = str(randint(0,9999999999))
 
-    for letter in message:
-        result += chr((ord(letter) + key % 26))
+    for i in range(0, l):
 
-    print(result)
+        result += chr(ord('a') + (ord(message[i]) + int(key[i % 10])) % 26)
+
+    print("Your encrypted message is : ", result)
+    print("With Key : ", key)
+
     print("\n", '*' * 100, '\n')
     print('your converted message is : \n',message,'\n')
 

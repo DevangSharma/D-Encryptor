@@ -4,7 +4,6 @@
     <list default="true" id="5db56861-6b53-4355-89dc-6e7a461f3655" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +154,7 @@
       <workItem from="1589434254668" duration="4688000" />
       <workItem from="1589549402510" duration="1930000" />
       <workItem from="1590139776279" duration="36000" />
-      <workItem from="1591268579731" duration="799000" />
+      <workItem from="1591268579731" duration="2685000" />
     </task>
     <servers />
   </component>
@@ -178,22 +177,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590139810928" />
-    <state width="1493" height="420" key="GridCell.Tab.0.bottom" timestamp="1591269341615">
+    <state width="1493" height="420" key="GridCell.Tab.0.bottom" timestamp="1591271244710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="420" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591269341615" />
-    <state width="1493" height="420" key="GridCell.Tab.0.center" timestamp="1591269341615">
+    <state width="1493" height="420" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591271244710" />
+    <state width="1493" height="420" key="GridCell.Tab.0.center" timestamp="1591271244710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="420" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591269341615" />
-    <state width="1493" height="420" key="GridCell.Tab.0.left" timestamp="1591269341615">
+    <state width="1493" height="420" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591271244710" />
+    <state width="1493" height="420" key="GridCell.Tab.0.left" timestamp="1591271244710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="420" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591269341615" />
-    <state width="1493" height="420" key="GridCell.Tab.0.right" timestamp="1591269341615">
+    <state width="1493" height="420" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591271244710" />
+    <state width="1493" height="420" key="GridCell.Tab.0.right" timestamp="1591271244710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="420" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591269341615" />
+    <state width="1493" height="420" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591271244710" />
     <state x="277" y="55" key="SettingsEditor" timestamp="1589363424378">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -208,6 +207,6 @@
     <SUITE FILE_PATH="coverage/D_encrypt$D_Encryptor.coverage" NAME="D-Encryptor Coverage Results" MODIFIED="1589365436577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/D_encrypt$main.coverage" NAME="main Coverage Results" MODIFIED="1589364575351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/D_Encryptor$D_Encryptor.coverage" NAME="D-Encryptor Coverage Results" MODIFIED="1589434280137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/D_Encryptor$D_Encrypter_main.coverage" NAME="D-Encrypter main Coverage Results" MODIFIED="1591269341604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/D_Encryptor$D_Encrypter_main.coverage" NAME="D-Encrypter main Coverage Results" MODIFIED="1591271244700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
