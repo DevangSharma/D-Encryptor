@@ -23,6 +23,16 @@ def test_input_range(n, chk1, chk2):
 def encrypt():
     print("You selected Encryption")
     message = input("Enter your message from line below :\n")
+    message = message.lower()
+    result = ""
+    key = 1
+
+    for letter in message:
+        result += chr((ord(letter) + key % 26))
+
+    print(result)
+    print("\n", '*' * 100, '\n')
+    print('your converted message is : \n',message,'\n')
 
 
 def decrypt():
