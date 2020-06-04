@@ -33,17 +33,34 @@ def encrypt():
 
     for i in range(0, l):
 
-        result += chr(ord('a') + (ord(message[i]) + int(key[i % 10])) % 26)
+        if (message[i] == ' '):
+            result += "."
+        else:
+            result += chr(ord('a') + (ord(message[i]) + int(key[i % 10])) % 97)
 
     print("Your encrypted message is : ", result)
     print("With Key : ", key)
 
     print("\n", '*' * 100, '\n')
-    print('your converted message is : \n',message,'\n')
 
 
 def decrypt():
     print("You selected Decryption")
     message = input("Enter your message from line below :\n")
+    key = input("Enter your key : ")
+
+    result = ""
+    l = len(message)
+
+    for i in range(0, l):
+
+        if(message[i] == '.'):
+            result += " "
+        else:
+            result += chr(ord('a') + (ord(message[i]) - int(key[i % 10])) % 97)
+
+    print(result)
+
+
 
 
